@@ -1,0 +1,24 @@
+Test Case ID 2.1
+Test Case Description: Searching for the word "prowly" on google.com with filtering by date-change system date
+Test Environment: https://www.google.com/
+Test Data: change the system date to 20/09/2000
+Test Steps:
+1. Launch https://www.google.com/ from any web browser.
+2. Enter the text 'prowly' in the search text box
+3. Click the search button.
+4. Select the "Tools" tab and choose to filter "last hour" results
+5.check if the search results only include results from the last hour
+Expected Results: Search results filter correctly and changing the operating system date doesn't affect the results date
+
+Test Case ID 2.2
+Test Case Description:
+Test Data:
+Test Environment: https://www.google.com/
+Test Steps:
+1. Launch https://www.google.com/ from any web browser.
+2. Enter the text 'prowly' in the search text box
+3. Click the search button.
+
+Expected Results:
+
+Test Case Id 1.1
