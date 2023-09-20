@@ -1,24 +1,37 @@
+Test Case Id 1.1
+Test Case Description:Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.)- change location.
+Test Environment: https://www.google.com/
+Test Data: location- Russia Moscow
+Test Steps:
+1. Launch https://www.google.com/ from any web browser.
+2. Enter the text 'prowly' in the search text box.
+3. Click the search button.
+4. Change search category to 'images'.
+5. Compare the results with the same conditions but Polish location.
+Expected Results: Search results are different due to the unavailability of some websites in a given country (e.g. Facebook).
+
 Test Case ID 2.1
-Test Case Description: Searching for the word "prowly" on google.com with filtering by date-change system date
+Test Case Description: Searching for the word "prowly" on google.com with filtering by date-change system date.
 Test Environment: https://www.google.com/
 Test Data: change the system date to 20/09/2000
+Test Steps:
+1. Launch https://www.google.com/ from any web browser.
+2. Enter the text 'prowly' in the search text box.
+3. Click the search button.
+4. Select the "Tools" tab and choose to filter "last hour" results.
+5. Check if the search results only include results from the last hour.
+Expected Results: Search results filter correctly and changing the operating system date doesn't affect the results date.
+
+Test Case ID 2.2
+Test Case Description:Searching for the word "prowly" on google.com with filtering by date-use incognito mode
+Test Data: incognito mode on
+Test Environment: https://www.google.com/
 Test Steps:
 1. Launch https://www.google.com/ from any web browser.
 2. Enter the text 'prowly' in the search text box
 3. Click the search button.
 4. Select the "Tools" tab and choose to filter "last hour" results
-5.check if the search results only include results from the last hour
-Expected Results: Search results filter correctly and changing the operating system date doesn't affect the results date
-
-Test Case ID 2.2
-Test Case Description:
-Test Data:
-Test Environment: https://www.google.com/
-Test Steps:
-1. Launch https://www.google.com/ from any web browser.
-2. Enter the text 'prowly' in the search text box
-3. Click the search button.
-
+5. Repeat steps 1-4 in the second tab with incognito mode enabled.
+6. Compare the results
 Expected Results:
-
-Test Case Id 1.1
+Search results filter correctly and are the same in both cases.
