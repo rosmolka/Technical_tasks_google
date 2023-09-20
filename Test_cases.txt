@@ -1,5 +1,5 @@
-Test Case Id 1.1
-Test Case Description:Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.)- change location.
+Test Case ID 1.1
+Test Case Description: Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.)- change location.
 Test Environment: https://www.google.com/
 Test Data: location- Russia Moscow
 Test Steps:
@@ -23,7 +23,7 @@ Test Steps:
 Expected Results: Search results filter correctly and changing the operating system date doesn't affect the results date.
 
 Test Case ID 2.2
-Test Case Description:Searching for the word "prowly" on google.com with filtering by date-use incognito mode
+Test Case Description: Searching for the word "prowly" on google.com with filtering by date-use incognito mode
 Test Data: incognito mode on
 Test Environment: https://www.google.com/
 Test Steps:
@@ -32,6 +32,6 @@ Test Steps:
 3. Click the search button.
 4. Select the "Tools" tab and choose to filter "last hour" results
 5. Repeat steps 1-4 in the second tab with incognito mode enabled.
-6. Compare the results
+6. Compare the results.
 Expected Results:
 Search results filter correctly and are the same in both cases.
